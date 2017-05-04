@@ -1,4 +1,6 @@
-/* add custom styles */
 .center {
   text-align: center;
+}
+.pad {
+  padding-bottom: 100px;
 }
