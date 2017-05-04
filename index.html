@@ -8,13 +8,27 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/particles.css">
+    <link rel="stylesheet" type="text/css" href="css/tear.css">
   </head>
-  <body>
+  <body id="body">
 
-    <h3>Career Connect X Coding</h3>
+  <div class="row">
+    <h2 class="center">Career Connect X Coding</h2>
+  </div>
+  <br>
+  <div class="row center">
+    <button class="btn" onclick="colorChange('body')">Color Me</button>
+    <button class="btn" onclick="getName()">Who are you?</button>
+    <br>
+    <h1 id="name"></h1>
+  </div>
 
+  <div class="row">
     <div id='container'></div>
+    <div><canvas id="c"></canvas></div>
+  </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
